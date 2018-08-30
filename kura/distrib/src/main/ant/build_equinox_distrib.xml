@@ -712,8 +712,6 @@ fi]]>
 			<entry key="osgi.bundles" operation="+"
 				value=", reference:file:${kura.install.dir}/kura/plugins/minimal-json_${com.eclipsesource.minimal-json.version}.jar" />
 			<entry key="osgi.bundles" operation="+"
-				value=", reference:file:${kura.install.dir}/kura/plugins/org.hsqldb.hsqldb_${org.hsqldb.hsqldb.version}.jar@3:start" />
-			<entry key="osgi.bundles" operation="+"
 				value=", reference:file:${kura.install.dir}/kura/plugins/org.h2_${com.h2database.h2.version}.jar@3:start" />
 			<entry key="osgi.bundles" operation="+"
                 value=", reference:file:${kura.install.dir}/kura/plugins/com.codeminders.hidapi.${native.tag}_${com.codeminders.hidapi.version}.jar@3" />
